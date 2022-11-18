@@ -19,5 +19,35 @@ fn main() {
     println!("Tipo Flutuante pode ser f32 e f64 {tipo_floot}");
     println!("Tipo char pode ser char {tipo_char}");
     println!("Tipo boolean pode ter o valor true ou false e seu valor atual é {tipo_boolean}");
-    println!("O valor do tipo &str é {tipo_str}")
+    println!("O valor do tipo &str é {tipo_str}");
+    
+
+
+    println!();
+    println!("Criando Tuplas");
+    
+    let tupla_cor_rgb: (u8, u8, u8) = (122, 99, 255);
+    println!("Valor da cor em rgb é {:?}", tupla_cor_rgb);
+
+    println!();
+    println!("Criando Array");
+
+    let array_nome_frutas = ["Uva", "Banana", "Goiaba"];
+    let array_iniciado_com_valores_padrão = [0; 5];
+
+    println!("A fruta do array na posição 1 é {}", array_nome_frutas[0]);
+    println!("Array com todos os item inicializado com zero {array_iniciado_com_valores_padrão:?}");
+
+    println!();
+    println!("Variavel mutavel");
+
+    let mut nome = "Werick";
+    let primeiro_nome = nome;
+    nome = "Werick da Silva Santana";
+
+    println!("Nome de {primeiro_nome} foi atualizado para {nome}.");
+
+    println!();
+    const CONSTANTE: bool = false;
+    println!("O valor da constante é '{CONSTANTE}'")
 }
