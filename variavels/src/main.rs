@@ -49,5 +49,16 @@ fn main() {
 
     println!();
     const CONSTANTE: bool = false;
-    println!("O valor da constante é '{CONSTANTE}'")
+    println!("O valor da constante é '{CONSTANTE}'");
+    println!();
+
+    // Sobreposição de variavel
+    let sobreposicao = "Sobrepor";
+    
+    println!("Variavel sobrepost antes '{sobreposicao}'");
+
+    let sobreposicao = "Meu novo valor depois da sobreposição";
+    
+    println!("Variavel sobreposta depois'{sobreposicao}'")
+    
 }
