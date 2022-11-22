@@ -4,5 +4,6 @@ members = [
     "variavels",
     "vetores",
     "enumerados",
-    "structs"
+    "structs",
+    "funcoes"
 ]
