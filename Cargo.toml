@@ -6,5 +6,6 @@ members = [
     "enumerados",
     "structs",
     "funcoes" ,
-    "traits"
+    "traits",
+    "condicao_e_loops"
 ]
