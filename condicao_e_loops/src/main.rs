@@ -35,4 +35,12 @@ fn main() {
         println!("Numeros é {numero}")
     }
 
+    let value_number = 10;
+    match value_number {
+        1 => println!("Numero 01"),
+        2..=10 => println!("Numero entre 2 a 10"),
+        12 | 14 | 16 => println!("Numero foi 12, 16, ou 18"),
+        _ => println!("Maior de idade")
+    }
+
 }
