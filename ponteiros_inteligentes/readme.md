@@ -7,6 +7,6 @@ Permite armazenar os valores direto na heap,  e algum tipo de casos que ele pode
 * Quando tem uma grande contidade de dados e não quer que ela seja copiada
 * Quando deseja que um tipo implementa uma regra(`trait`) que não um tipo especifico
 
-> Não sei porque usa o `dyn` antes da trait mais para frente buscar mais a fundo
+> `dyn` são usado para destacar a chamada de métodos na trait enviado dinamicamente mais informação [click aqui](https://doc.rust-lang.org/std/keyword.dyn.html) 
 
 Uma coisa que não será mudado é que quando a variavel sair do escopo não será mantida e ela será destruida 
