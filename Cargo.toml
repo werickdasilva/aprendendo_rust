@@ -9,5 +9,6 @@ members = [
     "traits",
     "condicao_e_loops",
     "iteradores",
-    "ponteiros_inteligentes"
+    "ponteiros_inteligentes",
+    "colecao_hash_map"
 ]
