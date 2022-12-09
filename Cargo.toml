@@ -10,5 +10,6 @@ members = [
     "condicao_e_loops",
     "iteradores",
     "ponteiros_inteligentes",
-    "colecao_hash_map"
+    "colecao_hash_map",
+    "into_e_from"
 ]
