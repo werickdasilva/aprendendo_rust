@@ -5,11 +5,12 @@ members = [
     "vetores",
     "enumerados",
     "structs",
-    "funcoes" ,
+    "funcoes",
     "traits",
     "condicao_e_loops",
     "iteradores",
     "ponteiros_inteligentes",
     "colecao_hash_map",
-    "into_e_from"
+    "into_e_from",
+    "ownership_e_borrowing",
 ]
