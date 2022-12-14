@@ -29,4 +29,8 @@ fn main() {
 
     primeira_forma.show_name();
     segunda_forma.show_name();
+
+    // desestruturar struct
+    let CriandoScruct { nome, idade } = segunda_forma;
+    println!("desestruturar struct seu valores serapado são {nome}, {idade}")
 }
