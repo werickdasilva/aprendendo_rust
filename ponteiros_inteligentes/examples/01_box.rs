@@ -1,4 +1,4 @@
-pub fn smart_pointer_box() {
+fn main() {
     let box_tipo = Box::new(100);
     println!("Valor da Box é {}",box_tipo);
 

@@ -15,6 +15,10 @@ Uma coisa que não será mudado é que quando a variavel sair do escopo não ser
 # Rc<T>
 Usado quando não se sabe quantos o tamanho da referencia e a palavra `Rc` é uma abreviação para contavem de referência
 
+> Nota: na maioria dos casos a posse é clara
+
 Seu uso será para quando quiser ter adicionar varios dados na heap em diferentes parte do programa
 
-> Umas das diferencia é que em tempo de compilação não quem como saber quem será usado primeiro e quem sair primeiro ou por ultimo
+> Umas das diferencia é que em tempo de compilação não tem como saber quem será usado primeiro e quem sair primeiro ou por ultimo
+
+`Rc<T>`só serve para cenarios de uma thread única
